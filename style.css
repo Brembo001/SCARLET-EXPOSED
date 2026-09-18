@@ -1902,3 +1902,298 @@ body {
   }
 }
 
+/* ==========================================================================
+   THE SYNDICATE: INDIVIDUALS INVOLVED STYLES
+   ========================================================================== */
+
+.nav-syndicate-link {
+  color: #c084fc !important;
+  font-weight: 700 !important;
+}
+
+.syndicate-section {
+  padding: 80px 0;
+  background: rgba(15, 19, 32, 0.6);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.syndicate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 28px;
+}
+
+.syndicate-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-smooth);
+}
+
+.syndicate-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
+
+.syndicate-card.primary-target {
+  border-color: rgba(192, 132, 252, 0.4);
+  background: linear-gradient(180deg, rgba(124, 58, 237, 0.08) 0%, var(--bg-card) 40%);
+}
+
+.syndicate-card.primary-target:hover {
+  border-color: #c084fc;
+  box-shadow: 0 16px 40px rgba(124, 58, 237, 0.25);
+}
+
+.syndicate-card.accomplice-target {
+  border-color: rgba(56, 189, 248, 0.3);
+}
+
+.syndicate-card.accomplice-target:hover {
+  border-color: #38bdf8;
+  box-shadow: 0 16px 40px rgba(56, 189, 248, 0.2);
+}
+
+.syndicate-card.enforcer-target {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.syndicate-card.enforcer-target:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 16px 40px rgba(245, 158, 11, 0.2);
+}
+
+.syndicate-header {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(10, 12, 20, 0.6);
+}
+
+.syndicate-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.ringleader-badge {
+  background: rgba(168, 85, 247, 0.2);
+  color: #c084fc;
+  border: 1px solid rgba(168, 85, 247, 0.4);
+}
+
+.manager-badge {
+  background: rgba(56, 189, 248, 0.2);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
+.unpaid-badge {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.view-profile-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.view-profile-btn:hover {
+  color: #fff;
+  transform: translateX(3px);
+}
+
+.profile-preview {
+  background: #111214;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.profile-preview img {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.profile-preview:hover img {
+  transform: scale(1.03);
+}
+
+.syndicate-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.profile-identity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.profile-name {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.username-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.username-pill code {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: #cbd5e1;
+}
+
+.mini-copy {
+  padding: 1px 6px;
+  font-size: 0.7rem;
+}
+
+/* Discord Authentic Role Badges */
+.discord-roles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.role-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.role-manager {
+  background: rgba(168, 85, 247, 0.18);
+  color: #c084fc;
+  border: 1px solid rgba(168, 85, 247, 0.4);
+}
+
+.role-customers {
+  background: rgba(234, 179, 8, 0.18);
+  color: #fde047;
+  border: 1px solid rgba(234, 179, 8, 0.4);
+}
+
+.role-verified {
+  background: rgba(34, 197, 94, 0.18);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.4);
+}
+
+.role-unpaid {
+  background: rgba(236, 72, 153, 0.2);
+  color: #f472b6;
+  border: 1px solid rgba(236, 72, 153, 0.4);
+}
+
+.role-slotted {
+  background: rgba(244, 63, 94, 0.18);
+  color: #fb7185;
+  border: 1px solid rgba(244, 63, 94, 0.4);
+}
+
+.role-private {
+  background: rgba(239, 68, 68, 0.18);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.role-charges-box {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-top: auto;
+}
+
+.role-charges-box h4 {
+  font-size: 0.82rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.charges-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.charges-list li {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  position: relative;
+  padding-left: 14px;
+}
+
+.charges-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--crimson-primary);
+}
+
+/* Gallery Syndicate Tags */
+.exhibit-tag-syndicate {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(124, 58, 237, 0.85);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.6);
+}
+
+.category-pill.syndicate {
+  background: rgba(168, 85, 247, 0.25);
+  color: #c084fc;
+  font-weight: 700;
+}
+
+
