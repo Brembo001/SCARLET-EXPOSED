@@ -138,6 +138,57 @@ If you see suspicious sites on the *.lovable.app domain that attempt to steal da
 [Button: Learn about Lovable]
 Lovable`,
     analysis: "The ultimate humiliation: After attempting to evade Money Motion and OVGC payment processor bans by spinning up a fake domain (scarletvqc.dev), Lovable's Trust & Safety team intervened immediately, terminating and nuking the site for data theft, impersonation, and malware distribution."
+  },
+  {
+    id: 6,
+    badge: "EXHIBIT #07 • RING LEADER",
+    title: "Profile: ! Scarlet (@scarletvgc)",
+    image: "assets/images/profile-scarlet.png",
+    timestamp: "SEPTEMBER 2026 • IDENTIFIED",
+    category: "syndicate",
+    transcript: `Display Name: ! Scarlet
+Username: scarletvgc
+Server Roles:
+• MANAGER [S]
+• CUSTOMERS
+• VERIFIED
+Status: Do Not Disturb`,
+    analysis: "The primary architect and ringleader of the operation. Orchestrated the payment gateway fraud attempt, commanded the concealment of Supremacy ImGui, distributed leaked media keys, and operated the banned domain scarletvqc.dev."
+  },
+  {
+    id: 7,
+    badge: "EXHIBIT #08 • CO-MANAGER",
+    title: "Profile: XiterTheGoat!! (@vng.xiter)",
+    image: "assets/images/profile-xiter.png",
+    timestamp: "SEPTEMBER 2026 • IDENTIFIED",
+    category: "syndicate",
+    transcript: `Display Name: XiterTheGoat!!
+Username: vng.xiter
+Server Roles:
+• MANAGER [S]
+• VERIFIED
+Mutual Servers: 3 Mutual Servers
+Status: Do Not Disturb`,
+    analysis: "Co-manager holding high-level executive permissions. Collaborates directly with Scarlet to run the server, oversee user verification, and manage operation infrastructure."
+  },
+  {
+    id: 8,
+    badge: "EXHIBIT #09 • UNPAID MODERATOR",
+    title: "Profile: Scarlet x Ati (@ati1907xd)",
+    image: "assets/images/profile-ati.png",
+    timestamp: "SEPTEMBER 2026 • IDENTIFIED",
+    category: "syndicate",
+    transcript: `Display Name: Scarlet x Ati
+Username: ati1907xd
+Badges: Blender, Nitro, HypeSquad Bravery
+Server Roles:
+• MODERATOR 'DON'T PAY' [S]
+• CUSTOMERS
+• SLOTTED
+• PRIVATE
+• VERIFIED
+• +1 Role`,
+    analysis: "Server moderator and enforcer tagged with the revealing role 'MODERATOR (DON'T PAY)'. Enforces chat rules and silences critics on behalf of the syndicate without receiving compensation."
   }
 ];
 
